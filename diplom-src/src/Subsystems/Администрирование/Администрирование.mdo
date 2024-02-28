@@ -66,4 +66,6 @@
   <content>Report.АнализПравДоступа</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
+  <content>Document.ВКМ__ВходящийНТТРЗапрос</content>
+  <content>Catalog.ВКМ_УчетныеЗаписиТелеграмм</content>
 </mdclass:Subsystem>
