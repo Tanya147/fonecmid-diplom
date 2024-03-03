@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d7a3284-7327-430b-8b93-d34051b15516">
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d7a3284-7327-430b-8b93-d34051b15516">
   <producedTypes>
     <objectType typeId="3be2eb66-061e-4031-adb0-578df86ed725" valueTypeId="56c7b7a6-ea51-4f76-bf45-4a216c2a8c01"/>
     <managerType typeId="91da6c21-88d4-42b0-bc6a-f0adee04042c" valueTypeId="4fe48218-7cc6-4d10-89a9-f13c505059de"/>
@@ -10,7 +10,29 @@
     <value>Анализ выставленных актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВКМ_АнализВыставленныхАктов.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="a0e7ad65-351d-4d96-a1c1-39f5591f52bd">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ceca277e-d32d-4b86-9236-df99924affc3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="361e68f3-2be7-4a04-84f7-4abbdae0ebb6">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Отправка и удаление элементов справочника уведомления телеграм боту</value>
   </synonym>
-  <methodName>CommonModule.вкм_Телеграмм.УдалениеОтправленныхСообщений</methodName>
+  <methodName>CommonModule.вкм_Телеграмм.РассылкаСообщений</methodName>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

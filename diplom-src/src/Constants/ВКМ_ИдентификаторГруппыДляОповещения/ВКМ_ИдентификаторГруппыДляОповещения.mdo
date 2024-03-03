@@ -13,7 +13,7 @@
   <type>
     <types>String</types>
     <stringQualifiers>
-      <length>10</length>
+      <length>11</length>
     </stringQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>

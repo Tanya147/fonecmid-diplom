@@ -20,18 +20,18 @@
       <value>Год</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-      </numberQualifiers>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <format>
       <key>ru</key>
-      <value>ЧГ=0</value>
+      <value>ДФ=yyyy</value>
     </format>
     <editFormat>
       <key>ru</key>
-      <value>ЧГ=0</value>
+      <value>ДФ=yyyy</value>
     </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
